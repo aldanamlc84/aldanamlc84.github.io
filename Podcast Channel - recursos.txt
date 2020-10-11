@@ -1,0 +1,56 @@
+--Menu "episodios" "nosotros" "entrevistas" "tópicos" -->font-family: IBMPlexMono;
+font-size: 16px;
+
+--"Hello World  pale blue dot" --> font-family: IBMPlexSans;
+font-size: 64px;
+
+--texto debajo del titulo Hello... --> font-family: IBMPlexMono;
+font-size: 16px;
+
+--"conoce mas" -->font-family: IBMPlexMono-Medium;
+font-size: 18px;
+
+--"Episodios" --> font-family: IBMPlexSans;
+font-size: 48px;
+
+
+--Para el titulo"de donde venimos" --> font-family: IBMPlexSans;
+font-size: 48px
+
+Texto debajo del titulo --> font-family: IBMPlexMono;
+font-size: 16px
+
+--Para el titulo "Invitados/as estelares" --> font-family: IBMPlexSans;
+font-size: 48px; 
+
+--"Algunos de nuestros temas" -->font-family: IBMPlexSans;
+font-size: 48px;
+
+--Pie de los iconos --> font-family: IBMPlexSans-SemiBold;
+font-size: 24px;
+
+--"¿queres las ultimas novedades?" --> font-family: IBMPlexSans;
+font-size: 48px;
+
+--"escucha los episodios" --> font-family: IBMPlexMono-Medium;
+font-size: 18px;
+
+
+--"© 2019— Hello blue pale dot " --> font-family: IBMPlexMono;
+font-size: 16px;
+
+--"Spotify" "Instagram" "Twitter" "Facebook" "telegram" los loguitos son texto --> font-family: FontAwesome5Brands-Regular;
+font-size: 18px;
+
+
+
+--Links de los tipos de letra para el HTML
+IBMPlexMono
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+
+IBMPlexSans
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+FontAwesome5Brands
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
