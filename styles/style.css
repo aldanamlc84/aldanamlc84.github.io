@@ -45,7 +45,59 @@ table {
 
 /* ------- Reset terminado ------- */
 /* Importo las fuentes de google PlexSans, PlexMono*/
-h1 {
-  font-family: "IBM Plex Sans", monospace; }
+header {
+  min-height: 44px;
+  background-color: blue;
+  width: 100%; }
+
+body {
+  max-width: 414px;
+  height: 3000px;
+  display: flex;
+  flex-direction: column;
+  background-color: violet; }
+
+main {
+  display: flex;
+  flex-direction: column; }
+
+.hero {
+  height: 200px; }
+
+.episodios {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  height: 1200px;
+  transform: skew(0deg, -4deg);
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg); }
+
+.nosotros {
+  height: 200px; }
+
+.entrevistas {
+  height: 200px; }
+
+.topicos {
+  height: 200px; }
+
+.novedades {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  transform: skew(0deg, -4deg);
+  height: 341px;
+  transform-origin: top right;
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg); }
+
+footer {
+  min-height: 121px;
+  background-color: grey;
+  margin-top: auto;
+  color: whitesmoke; }
 
 /*# sourceMappingURL=style.css.map */
