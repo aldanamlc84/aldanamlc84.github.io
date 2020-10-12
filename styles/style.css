@@ -54,20 +54,44 @@ body {
   max-width: 414px;
   height: 3000px;
   display: flex;
-  flex-direction: column;
-  background-color: violet; }
+  flex-direction: column; }
 
 main {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow: hidden; }
 
 .hero {
-  height: 200px; }
+  padding: 29px 16px 24px 16px; }
+  .hero h2 {
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px; }
+  .hero p {
+    padding-top: 16px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px; }
+  .hero .hero-btn {
+    font-family: IBM Plex Mono;
+    font-weight: 500;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    background: #00F3BB;
+    width: 100%;
+    height: 48px;
+    margin-top: 36px; }
 
 .episodios {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   height: 1200px;
-  transform: skew(0deg, -4deg);
   -webkit-transform: skewY(-4deg);
   -moz-transform: skewY(-4deg);
   -ms-transform: skewY(-4deg);
@@ -85,7 +109,6 @@ main {
 
 .novedades {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-  transform: skew(0deg, -4deg);
   height: 341px;
   transform-origin: top right;
   -webkit-transform: skewY(-4deg);
