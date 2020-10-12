@@ -75,7 +75,8 @@ main {
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
-    line-height: 22px; }
+    line-height: 22px;
+    text-align: justify; }
   .hero .hero-btn {
     font-family: IBM Plex Mono;
     font-weight: 500;
