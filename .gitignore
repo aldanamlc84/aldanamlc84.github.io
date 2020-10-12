@@ -1,0 +1,6 @@
+/sass
+*.scss
+*.code-workspace
+*.docx
+*.pdf
+*.txt
